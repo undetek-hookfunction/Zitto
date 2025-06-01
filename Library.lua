@@ -731,7 +731,7 @@ do -- Library
 			ScriptTitle.TextSize = 12.000
 			ScriptTitle.RichText = true
 			ScriptTitle.AnchorPoint = Vector2.new(0, 0.5)
-			ScriptTitle.Position = UDim2.new(0, 30, 0.5, 0)
+			ScriptTitle.Position = UDim2.new(0, 5, 0.5, 0)
 			ScriptTitle.Parent = TopFrame
 			ScriptTitle.TextXAlignment = Enum.TextXAlignment.Left
 
