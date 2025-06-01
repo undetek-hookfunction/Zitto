@@ -713,19 +713,7 @@ do -- Library
 			TopFrame.BorderSizePixel = 0
 			TopFrame.Size = UDim2.new(1, 0, 0, 25)
 
-			local Logo = Library:NewInstance("ImageLabel", true)
-			Logo.Name = "Logo"
-			Logo.Image = getCustomImage(OBImg,"Icon")
-			Logo.ScaleType = Enum.ScaleType.Fit
-			Logo.AnchorPoint = Vector2.new(0, 0.5)
-			Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			Logo.BackgroundTransparency = 1
-			Logo.ImageColor3 = Color3.new(1,1,1)--Library.Accent
-			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-			Logo.BorderSizePixel = 0
-			Logo.Position = UDim2.new(0, 5, 0.5, -1)
-			Logo.Size = UDim2.new(0, 20, 0, 20)
-			Logo.Parent = TopFrame
+
 
 			local ScriptTitle = Library:NewInstance("TextLabel", false)
 
