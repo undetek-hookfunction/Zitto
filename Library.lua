@@ -128,6 +128,7 @@ do -- Library
         writefile(AssetsDir.."/menu_font.font", game:GetService("HttpService"):JSONEncode(smallest_pixel))
 
         getgenv().menu_font = Font.new(getcustomasset(AssetsDir.."/menu_font.font"), Enum.FontWeight.Regular)
+        getgenv().Path = game.CoreGui
     end
 
 	do
@@ -682,6 +683,7 @@ do -- Library
 			ZittoWin.Name = "Zitto.win"
 			ZittoWin.DisplayOrder = 5
 			ZittoWin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            ZittoWin.Enabled = true
 
 			local ImageLabel = Instance.new("ImageLabel")
 			ImageLabel.Name = "ImageLabel"
